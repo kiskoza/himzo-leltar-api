@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  icon_name: MyString
+  stock_on_hand: 1
+  stock_at_full: 1
+  delete_time: 2020-03-08 17:08:59
+
+two:
+  name: MyString
+  icon_name: MyString
+  stock_on_hand: 1
+  stock_at_full: 1
+  delete_time: 2020-03-08 17:08:59
