@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  colour_number: 1
+  colour_name: MyString
+  stock_on_hand: 1.5
+  stock_at_full: 1.5
+  color_in_hexa: MyString
+  delete_time: 
+
+two:
+  colour_number: 1
+  colour_name: MyString
+  stock_on_hand: 1.5
+  stock_at_full: 1.5
+  color_in_hexa: MyString
+  delete_time: 

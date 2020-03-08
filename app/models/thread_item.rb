@@ -1,0 +1,2 @@
+class ThreadItem < ApplicationRecord
+end
