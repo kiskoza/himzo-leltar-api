@@ -1,0 +1,2 @@
+class Vetex < ApplicationRecord
+end

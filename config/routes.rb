@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :vetexes
   resources :utilities
   resources :thread_items
   resources :corduras
