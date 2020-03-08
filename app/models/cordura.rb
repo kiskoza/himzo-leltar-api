@@ -1,0 +1,2 @@
+class Cordura < ApplicationRecord
+end
