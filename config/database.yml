@@ -5,3 +5,16 @@ development:
   database: himzo_development
   pool: 15
   prepared_statements: false
+
+test:
+  adapter: postgresql
+  encoding: utf8
+  reconnect: false
+  database: himzo_test
+  pool: 5
+  prepared_statements: false
+
+production:
+  url:  <%= ENV["DATABASE_URL"] %>
+  pool: <%= ENV["DB_POOL"] || 5 %>
+  prepared_statements: false
