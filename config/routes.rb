@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resource :authorization, only: [:create]
+
   resources :vetexes
   resources :utilities
   resources :thread_items

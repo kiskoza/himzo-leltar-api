@@ -1,0 +1,4 @@
+# frozen_string_literal: true
+
+AUTHSCH_CLIENT = ENV['AUTHSCH_CLIENT']
+AUTHSCH_KEY = ENV['AUTHSCH_KEY']
