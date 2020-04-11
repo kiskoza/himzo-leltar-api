@@ -28,6 +28,6 @@ class AuthorizationsController < ApplicationController
 
     user = User.create_from_authsch(JSON.parse(user_params.body).deep_symbolize_keys)
 
-    render json: JSON.parse(user_params.body)
+    render json: user.to_json
   end
 end
