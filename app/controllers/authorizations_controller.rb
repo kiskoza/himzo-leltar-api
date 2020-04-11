@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 class AuthorizationsController < ApplicationController
+  skip_before_action :authenticate_user!
+
   def create
     code = params[:code]
 
