@@ -47,6 +47,6 @@ class CordurasController < ApplicationController
 
   # Only allow a trusted parameter "white list" through.
   def cordura_params
-    params.require(:cordura).permit(:colour_name, :stock_on_hand, :stock_at_full, :color_in_hexa)
+    params.require(:cordura).permit(:colour_name, :stock_on_hand, :stock_at_full, :color_in_hexa, :delete_time)
   end
 end
